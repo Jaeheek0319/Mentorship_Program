@@ -3,7 +3,7 @@ const User = require('../model/User');
 
 router.post('/api/user', async (req, res) => {
 
-console.log("hitting");
+console.log("hitting", req.body);
 
     const {username, password, email} = req.body;
     const newUser = await User.create({

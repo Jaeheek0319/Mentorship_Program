@@ -2,6 +2,7 @@
   "name": "mentorship-program",
   "version": "0.1.0",
   "private": true,
+  "proxy": "localhost:3001",
   "dependencies": {
     "bootstrap": "^5.2.0-beta1",
     "react": "^18.1.0",
